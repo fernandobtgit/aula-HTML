@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+
+
+
+    <!--Outros inputs tops-->
+    <h1>Outros inputs</h1>
+    <!--Data-->
+    <label for="data">Data:</label>
+    <br>
+    <input type="date" id ="data"/>
+    <br>
+    <input type="datetime-local">
+    <br>
+    <input type="time">
+    <br><br>
+
+    <!-- caixa de textão-->
+    <label>
+        Telefone
+        <input 
+        type="tel"
+        name="telefone"
+        id="telefone"
+        placeholder="(00)00000-0000"
+        >
+    </label>
+    <br><br>
+
+    <label >
+        Textão:
+        <textarea name="" 
+        id="" 
+        cols="30" 
+        rows="5" 
+        placeholder="Digite sua bio"></textarea>
+    </label>
+    <br><br>
+
+    <!--Caixa de cor-->
+    <label>
+        Cor:
+        <input type="color" name="" id="">
+    </label>
+
+    <br><br>
+
+    <!--Caixa de número-->
+    <label>
+        Número:
+        <input type="number" min="-10" max="50" value="7" step="5">
+    </label>
+    <br><br>
+
+    <!--Barrinha tipo de volume-->
+    <label>
+        Barrinha:
+        <br>
+        0 <input type="range" name="" id="">100
+    </label>
+    <br><br>
+
+    <!--Caixinha de seleção-->
+    <label for="">Escolha seu curso</label>
+    <br><br>
+
+    <!--Tipo bolinha-->
+    <input type="radio" name="curso" value="Corte">Corte e costura
+    <br>
+    <input type="radio" name="curso" value="Etical">Etical Hacking
+    <br>
+    <input type="radio" name="curso" value="Design">Design de interiores
+    <br>
+
+
+    <!--Tipo caixinha -->
+    <input type="checkbox" name="rede1" value="zap">Zap Zap
+    <input type="checkbox" name="rede2" value="face">Face
+    <input type="checkbox" name="rede3" value="desativado">Orkut
+
+    <!--Caixa com varias opcoes-->
+    <BR></BR>
+    <label for="">Cidade</label>
+    <select name="" id="">
+        <option value="Toquio">Tóquio</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Doha">Doha</option>
+        
+        <optgroup name="Br" label="Brasil">
+            <option value="Foz do iguaçu">Foz do iguaçu</option>
+            <option value="Brasilia">Brasilia</option>
+            <option value="Salvador">Salvador</option>
+        </optgroup>
+
+    </select>
+</body>
+</html>
