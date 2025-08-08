@@ -1,0 +1,31 @@
+ul{
+    background-color: aqua;
+    
+    list-style:armenian;
+    
+}
+
+li{
+    color: rgb(45, 108, 163);
+    font-size: 30px;
+}
+
+h1{
+    font-family:cursive
+}
+/*ESTILIZAÇÃO POR ID*/
+#caixa-rosa{
+    background-color: aquamarine;
+}
+#caixa-roxa{
+    background-color: rgb(115, 148, 137);
+}
+/*Estilização por class*/
+.branco{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+}
