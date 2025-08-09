@@ -1,0 +1,8 @@
+header{
+    background-color: darkgray;
+    color: white;
+}
+div{
+    display: inline-block;
+    margin: 100px auto;
+}
