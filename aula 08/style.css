@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+@font-face {
+    font-family: "Catleya";
+    src: url("./font/Catleya\ Signature.ttf");
+}
+
+
+body{
+    background-color:rgb(100, 33, 33) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: "Honk", system-ui;
+    font-size: 25px;
+}
+
+h1{
+    font-family: "Catleya", sans-serif;
+    font-size: 60px;
+    font-weight: 100px;
+    color:gold;
+}
+
+#na-direita{
+    text-align: right;
+    text-align: end;
+}
+
+#na-esquerda{
+    text-align: left;
+    text-align: start;
+}
+
+#no-centro{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
+
+#minus{
+    text-transform: lowercase;
+}
+
+#maius{
+    text-transform: uppercase;
+}
+
+#capitalizado{
+    text-transform: capitalize;
+}
+
+#decorado{
+    text-decoration: line-through overline wheat;
+}
+
+.fonte-vozes{
+    font-family: "Catleya", sans-serif;
+    font-size: 30px;
+    color: aqua;
+}
+
+.fonte-vozes2{
+    font-family: "Catleya", sans-serif;
+    font-size: 30px;
+    color: cadetblue;
+}

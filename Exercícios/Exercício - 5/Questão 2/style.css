@@ -1,0 +1,49 @@
+.um{
+    background-color: aqua;
+}
+
+.dois{
+    background-color: greenyellow;
+    background-size: 300px;
+    height: 300px;
+}
+
+.tres{
+    background-image: url(https://pm1.aminoapps.com/7410/325ea633265bc215342fa2307ffc3be0cef706a7r1-576-622v2_00.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 300px;
+    height: 300px;
+}
+
+.quatro{
+    background-image: url(https://pm1.aminoapps.com/7410/325ea633265bc215342fa2307ffc3be0cef706a7r1-576-622v2_00.jpg);
+    background-repeat: repeat-x;
+    background-size: 300px;
+    height: 500px;
+}
+
+.cinco{
+    background-image: url(https://pm1.aminoapps.com/7410/325ea633265bc215342fa2307ffc3be0cef706a7r1-576-622v2_00.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 500px;
+}
+
+.seis{
+    background-image: url(https://pm1.aminoapps.com/7410/325ea633265bc215342fa2307ffc3be0cef706a7r1-576-622v2_00.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    height: 500px;
+}
+
+.sete{
+    background-color: yellow;
+    background-image: url(https://pm1.aminoapps.com/7410/325ea633265bc215342fa2307ffc3be0cef706a7r1-576-622v2_00.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    background-size: 300px;
+    height: 500px;
+}

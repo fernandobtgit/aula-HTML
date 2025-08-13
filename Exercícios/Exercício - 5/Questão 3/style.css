@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "COMIC.TTF";
+    src: url(./fonts/COMIC.TTF);
+}
+
+#um{
+    font-family: Arial;
+    color: red;
+}
+
+#dois{
+    font-family: 'Times New Roman', Times;
+    font-size: 22;
+    color: green;
+}
+
+#tres{
+    font-family: "COMIC.TTF";
+    font-size: 20;
+    color: blue;
+    font-style: italic;
+}
+
+#quatro{
+    color: yellow;
+    font-weight: bold;
+    font-size: 14;
+    font-family: Verdana;
+}
